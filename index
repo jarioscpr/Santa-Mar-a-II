@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apartamento en Venta – Santa María II, San Juan PR</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #f7f3ed;
+    --warm-white: #faf8f5;
+    --sand: #e8dfd0;
+    --terracotta: #c4704a;
+    --deep: #1a1610;
+    --mid: #4a3f35;
+    --light: #8a7d72;
+    --gold: #b8965a;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--deep); min-height: 100vh; overflow-x: hidden; }
+  .hero { background: var(--deep); min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 50% at 80% 30%, rgba(196,112,74,0.18) 0%, transparent 70%), radial-gradient(ellipse 40% 60% at 10% 80%, rgba(184,150,90,0.12) 0%, transparent 70%); pointer-events: none; }
+  .hero-top { display: flex; justify-content: space-between; align-items: center; padding: 2rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.08); animation: fadeDown 0.8s ease both; }
+  .badge { font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); font-family: 'DM Sans', sans-serif; font-weight: 500; }
+  .price-tag { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 300; color: #fff; letter-spacing: 0.05em; }
+  .price-tag span { color: var(--terracotta); font-weight: 600; }
+  .hero-center { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 3rem; animation: fadeUp 1s ease 0.2s both; }
+  .eyebrow { font-size: 0.68rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--terracotta); margin-bottom: 1.5rem; }
+  .hero-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 8vw, 7rem); font-weight: 300; color: #fff; line-height: 1.05; margin-bottom: 0.5rem; }
+  .hero-title em { font-style: italic; color: var(--gold); }
+  .hero-subtitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.1rem, 2.5vw, 1.6rem); font-weight: 300; color: rgba(255,255,255,0.5); letter-spacing: 0.08em; margin-top: 0.75rem; }
+  .hero-divider { width: 60px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); margin: 2.5rem auto; }
+  .hero-tagline { font-size: 0.9rem; color: rgba(255,255,255,0.45); letter-spacing: 0.12em; text-transform: uppercase; font-weight: 300; }
+  .hero-bottom { display: flex; justify-content: center; gap: 3rem; padding: 2.5rem 3rem; border-top: 1px solid rgba(255,255,255,0.08); animation: fadeUp 1s ease 0.4s both; }
+  .stat { text-align: center; }
